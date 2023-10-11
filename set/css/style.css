@@ -1,0 +1,151 @@
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+h1
+{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.add
+{
+    display: block;
+    width: 600px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: black;
+    color: lightblue;
+    outline: solid lightblue 3px;
+    margin-bottom: 20px;
+}
+
+.name
+{
+    height: 40px;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.name:focus
+{
+    outline: solid gray 3px;
+}
+
+.list
+{
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.title
+{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    text-align: start;
+    margin-bottom: 10px;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.buttons
+{
+    position: absolute  ;
+    display: inline-block;
+    top: 15px;
+    right: 10px;
+}
+
+.buttons button
+{
+    border-radius: 10px;
+}
+
+.accept
+{
+    background-color: green;
+}
+
+.remove 
+{
+    background-color: red;
+}
+
+svg
+{
+    fill: white;
+}
+
+.deleteAll
+{
+    width: 600px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: black;
+    color: red;
+    outline: solid red 3px;
+    margin-top: 10px;
+}
+
+.note_name
+{
+    font-size: 25px;
+}
+
+.note
+{
+    display: block;
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.add_note
+{
+    border-radius: 10px;
+    background-color: green;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.remove_note
+{
+    border-radius: 10px;
+    background-color: red;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.add_remove
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.deal {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 4px 10px;
+    margin-bottom: 10px;
+}
